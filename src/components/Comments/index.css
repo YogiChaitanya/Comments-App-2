@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  padding: 20px;
+}
+
+.top-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+.name-input {
+  padding: 5px;
+
+  border: 1px solid #7e858e;
+  border-radius: 5px;
+
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.comment-input {
+  padding: 10px;
+
+  border: 1px solid #7e858e;
+  border-radius: 5px;
+
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.add-comment-btn {
+  background-color: #0284c7;
+  color: #dee0e3;
+  padding: 8px;
+  width: 130px;
+
+  border: none;
+  border-radius: 5px;
+
+  margin: 5px;
+}
+
+.comments-app-image {
+  width: 50%;
+}
+
+.no-comments {
+  color: #dee0e3;
+  background-color: #0284c7;
+  padding: 6px;
+
+  border-radius: 3px;
+}
+.list-container {
+  list-style-type: none;
+  list-style: none;
+  padding: 0px;
+
+  margin: 0px;
+}
+
+@media (max-width: 576px) {
+  .top-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .comments-app-image {
+    width: 100%;
+  }
+}
